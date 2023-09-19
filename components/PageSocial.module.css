@@ -1,0 +1,138 @@
+.pageSocial {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: var(--fg-color);
+}
+
+.action {
+  position: relative;
+  border-radius: 50%;
+  border: 2px solid var(--fg-color-6);
+  transition: all 300ms ease-out;
+  width: 3.5em;
+  height: 3.5em;
+  margin: 0 0 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none !important;
+  user-select: none;
+  cursor: pointer;
+}
+
+.action:last-child {
+  margin-bottom: 0;
+}
+
+.actionBg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.actionBg svg {
+  width: 50%;
+  height: 50%;
+  fill: var(--fg-color-6);
+}
+
+.actionBgPane {
+  transition: all 300ms ease-out;
+  border-radius: 50%;
+  width: 0;
+  height: 0;
+}
+
+.action:hover {
+  transition: all 100ms ease-out;
+}
+
+.action:hover .actionBgPane {
+  width: 100%;
+  height: 100%;
+  transition: all 100ms ease-out;
+}
+
+.action:hover svg {
+  transition: fill 100ms ease-out;
+  fill: var(--bg-color);
+}
+
+:global(.dark-mode) .action:hover svg {
+  fill: var(--fg-color);
+}
+
+.acast .actionBgPane {
+  background: #4747de;
+}
+.acast:hover {
+  border-color: #4747de;
+}
+
+.spotify .actionBgPane {
+  background: #60c968;
+}
+.spotify:hover {
+  border-color: #60c968;
+}
+
+.podcast .actionBgPane {
+  background: #8435bc;
+}
+.podcast:hover {
+  border-color: #8435bc;
+}
+
+.facebook .actionBgPane {
+  background: #3b5998;
+}
+.facebook:hover {
+  border-color: #3b5998;
+}
+
+.instagram .actionBgPane {
+  background: rgb(147,53,161);
+  background: linear-gradient(225deg, rgba(147,53,161,1) 0%, rgba(191,74,98,1) 50%, rgba(234,184,111,1) 100%);
+}
+.instagram:hover {
+  background: rgb(147,53,161);
+  background: linear-gradient(225deg, rgba(147,53,161,1) 0%, rgba(191,74,98,1) 50%, rgba(234,184,111,1) 100%);
+}
+
+.tiktok .actionBgPane {
+  background: rgb(222, 65, 85);
+  background: linear-gradient(225deg, rgb(222, 65, 85) 0%, rgb(110,228,225	) 100%);
+}
+.tiktok:hover {
+  background: rgb(222, 65, 85);
+  background: linear-gradient(225deg, rgb(222, 65, 85) 0%, rgb(110,228,225	) 100%);
+}
+
+.youtube .actionBgPane {
+  background: #FF0000;
+}
+.youtube:hover {
+  border-color: #FF0000;
+}
+
+@media only screen and (max-width: 768px) {
+  .links {
+    position: relative;
+    left: 0.5em;
+    flex-wrap: wrap;
+  }
+
+  .action:last-child {
+    margin-right: 1em;
+  }
+}

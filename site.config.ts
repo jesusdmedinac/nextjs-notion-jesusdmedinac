@@ -2,19 +2,19 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: '183fc656a3dd495f8549cff4062b62ff',
+  rootNotionPageId: 'e73fc936fc2d45db8dbddef99fca3596',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: 'Discusiones Alrededor de la Biblia',
-  domain: 'discusionesbiblicas.com',
-  author: 'Jesús Medina y Heber Villegas',
+  name: 'Jesus Daniel Medina Cruz',
+  domain: 'jesusdmedinac.com',
+  author: 'Jesús Daniel Medina Cruz',
 
   // open graph metadata (optional)
-  description: 'Discusiones Alrededor de la Biblia',
+  description: 'Jesus Daniel Medina Cruz',
 
   // social usernames (optional)
   // twitter: 'transitive_bs',

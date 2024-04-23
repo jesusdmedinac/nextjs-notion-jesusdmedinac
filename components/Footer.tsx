@@ -44,12 +44,16 @@ export const FooterImpl: React.FC = () => {
       </div>
 
       <div>
+        <a href='https://www.youtube.com/@jesusdmedinac/'>
+          YouTube
+        </a>
+        <strong> • </strong>
         <a href='https://www.linkedin.com/in/jesusdmedinac/'>
           Linkedin
         </a>
         <strong> • </strong>
         <a href='https://www.tiktok.com/@jesusdmedinac'>
-          Tiktok
+          TikTok
         </a>
         <strong> • </strong>
         <a href='https://www.facebook.com/jesusdmedinac'>

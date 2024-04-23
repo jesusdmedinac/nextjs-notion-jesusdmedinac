@@ -48,32 +48,36 @@ export const FooterImpl: React.FC = () => {
           Linkedin
         </a>
         <strong> • </strong>
+        <a href='https://www.tiktok.com/@jesusdmedinac'>
+          Tiktok
+        </a>
+        <strong> • </strong>
         <a href='https://www.facebook.com/jesusdmedinac'>
           Facebook
         </a>
         <strong> • </strong>
         <a href='https://www.instagram.com/jesusdmedinac/'>
-        Instagram
+          Instagram
         </a>
         <strong> • </strong>
         <a href='https://twitter.com/JesusDMedinaC'>
-        X
+          X
         </a>
         <strong> • </strong>
         <a href='https://github.com/jesusdmedinac'>
-        Github
+          Github
         </a>
         <strong> • </strong>
-        <a href='https://medium.com/jesus-medina'>
-        Medium
+        <a href='https://blog.jesusdmedinac.com'>
+          Medium
         </a>
         <strong> • </strong>
-        <a href='https://discord.gg/YnxksHvybq'>
-        Discord
+        <a href='https://discord.gg/CMP4dA7P'>
+          Discord
         </a>
         <strong> • </strong>
         <a href='https://www.twitch.tv/jesusdmedinac'>
-        Twitch
+          Twitch
         </a>
       </div>
     </footer>
